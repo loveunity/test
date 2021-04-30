@@ -9,7 +9,7 @@
             <script type="text/python"> 
             from browser import document, alert
             
-            MODULE_PATH = "./loveunity/numpy"
+            MODULE_PATH = "./loveunity/numpy/__init__.py"
             MODULE_NAME = "numpy"
             import numpy as np
             data = np.genfromtxt('sample_num.csv', delimiter = ',')

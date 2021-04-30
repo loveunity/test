@@ -11,7 +11,7 @@
      <!-- Ajax call -->
 <body onload="brython()">
  
- <script type="text/python" id="script13">
+ <script type="text/python" id="script">
         from browser import document, ajax
     
  <script>

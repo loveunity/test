@@ -10,7 +10,7 @@
     <script>
         function goPython(){
             $.ajax({
-              url: "numbers.py",
+              https://github.com/loveunity/test/blob/gh-pages/: "numbers.py",
              context: document.body
             }).done(function() {
              alert('finished python script');;

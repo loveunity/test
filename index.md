@@ -9,7 +9,7 @@
             <script type="text/python"> 
             from browser import document, alert
             
-            MODULE_PATH = "https://github.com/loveunity/numpy"
+            MODULE_PATH = "./loveunity/numpy"
             MODULE_NAME = "numpy"
             import numpy as np
             data = np.genfromtxt('sample_num.csv', delimiter = ',')
@@ -21,7 +21,7 @@
             document["mybutton"].bind("click", echo) 
             </script> 
  
-            <input id="zone"><button id="mybutton">click 3 !</button> 
+            <input id="zone"><button id="mybutton">click 4 !</button> 
  
         </body> 
  

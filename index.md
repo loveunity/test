@@ -14,7 +14,7 @@
             document["mybutton"].bind("click", echo) 
            
  
-            <input id="zone"><button id="mybutton">click 9 !</button> 
+            <input id="zone"><button id="mybutton">click 19 !</button> 
  
         </body> 
  

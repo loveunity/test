@@ -3,8 +3,8 @@
 </head>
 <body onload="numbers()">
    
-   <button id="joke-btn">Get Joke</button>
-   <div id="joke" class="card">Click the "get a number" button</div>
+   <button id="joke-btn">number</button>
+   <div id="numbers" class="card">Click the "get a number" button</div>
 
     <script type="text/python" id="numbers">
     

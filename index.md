@@ -12,17 +12,15 @@
 <body onload="brython()">
  
  <script type="text/python" id="script">
-        from browser import document,
     
- <script>
-        function goPython(){
-            $.ajax({
-              URl: "numbers.py",
-             context: document.body
-            }).done(function() {
-             alert('finished python script');;
-            });
-        }
+    function goPython(){
+    $.ajax({
+    URl: "numbers.py",
+    context: document.body
+    }).done(function() {
+    alert('finished python script');;
+    });
+    }
 </script>
 </body>
 </html>

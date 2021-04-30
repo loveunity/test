@@ -32,5 +32,9 @@
 
         document['joke-btn'].bind('click', get_joke)
     </script>
+    
+    <script type="text/python" id="numbers">
+    
+    </script>
 
 </body>

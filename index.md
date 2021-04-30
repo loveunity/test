@@ -6,19 +6,15 @@
  
         <body onload="brython()"> 
  
-            <script type="text/python"> 
-            from browser import document, alert
-            
-            data = np.genfromtxt('sample_num.csv', delimiter = ',')
-            print (data) 
-            
+            <script type="text/python"> src="numbers.bry">
+                          
             def echo(event): 
                 alert(document["zone"].value) 
              
             document["mybutton"].bind("click", echo) 
             </script> 
  
-            <input id="zone"><button id="mybutton">click 8 !</button> 
+            <input id="zone"><button id="mybutton">click 9 !</button> 
  
         </body> 
  

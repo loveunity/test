@@ -6,13 +6,13 @@
  
         <body onload="brython()"> 
  
-            <script type="text/python"> src="numbers.bry">
+            <script type="text/python"> src="numbers.bry"></script>
                           
             def echo(event): 
                 alert(document["zone"].value) 
              
             document["mybutton"].bind("click", echo) 
-            </script> 
+           
  
             <input id="zone"><button id="mybutton">click 9 !</button> 
  

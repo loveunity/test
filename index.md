@@ -8,7 +8,7 @@
  
             <script type="text/python" src="numbers.py"></script>
   
-            <input id="zone"><button id="mybutton">click 19 !</button> 
+            <input id="zone"><button id="mybutton">click 100 !</button> 
  
         </body> 
  

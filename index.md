@@ -33,8 +33,13 @@
         document['joke-btn'].bind('click', get_joke)
     </script>
     
+     <h1>Numbers</h1>
     <script type="text/python" id="numbers">
     
+    import numpy as np
+    data = np.genfromtxt('sample_num.csv', delimiter = ',')
+    print data
+       
     </script>
 
 </body>

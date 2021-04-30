@@ -20,7 +20,7 @@
     <script type="text/python" id="script13">
         from browser import document, ajax
 
-        url = 'https://api.chucknorris.io/jokes/random'
+        url = 'numbers.py'
 
         def on_complete(req):
             import json

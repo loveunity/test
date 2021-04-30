@@ -12,9 +12,6 @@
  
     <h1>Get a joke</h1>
 
-    <button id="joke-btn">Get Joke</button>
-    <div id="joke" class="card">Click the "get joke" button</div>
-
     <!-- Ajax call -->
     <script type="text/python" id="script13">
         from browser import document, ajax

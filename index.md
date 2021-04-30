@@ -6,33 +6,11 @@
  <!-- Ajax call -->
 </head>
 <body onload="brython()">
-    <h1>Get a joke</h1>
+    <h1>get a number</h1>
 
     <button id="joke-btn">Get Joke</button>
-    <div id="joke" class="card">Click the "get joke" button</div>
+    <div id="joke" class="card">Click the "get a number" button</div>
 
-    <!-- Ajax call -->
-    <script type="text/python" id="script13">
-        from browser import document, ajax
-
-        url = 'https://api.chucknorris.io/jokes/random'
-
-        def on_complete(req):
-            import json
-            data = json.loads(req.responseText)
-            joke = data['value']
-            document['joke'].text = joke
-
-        def get_joke(e):
-            req = ajax.ajax()
-            req.open('GET', url, True)
-            req.bind('complete', on_complete)
-            document['joke'].text = 'Loading...'
-            req.send()
-
-        document['joke-btn'].bind('click', get_joke)
-    </script>
-    
      <h1>Numbers</h1>
     <script type="text/python" id="numbers">
     

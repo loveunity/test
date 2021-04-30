@@ -10,7 +10,7 @@
     <script>
         function goPython(){
             $.ajax({
-              url: "numbs.py",
+              url: "numbers.py",
              context: document.body
             }).done(function() {
              alert('finished python script');;

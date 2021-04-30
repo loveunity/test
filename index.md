@@ -1,17 +1,21 @@
-<head>
- <h1>get a number</h1>
-</head>
-<body onload="numbers()">
-   
-   <button id="joke-btn">number</button>
-   <div id="numbers" class="card">Click the "get a number" button</div>
+<!DOCTYPE html>
+<html>
+  <head>    
+  </head>
+  <body>
+    <input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="goPython()">
 
-    <script type="text/python" id="numbers">
-    
-    import numpy as np
-    data = np.genfromtxt('sample_num.csv', delimiter = ',')
-    print data
-       
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script>
+        function goPython(){
+            $.ajax({
+              url: "numbs.py",
+             context: document.body
+            }).done(function() {
+             alert('finished python script');;
+            });
+        }
     </script>
-
-</body>
+  </body>
+</html>
